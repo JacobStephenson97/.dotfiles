@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval `keychain --eval github_com_ed25519`
+eval `keychain --eval --quiet github_com_ed25519`
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 

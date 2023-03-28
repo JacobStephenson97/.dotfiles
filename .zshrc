@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval `keychain --eval --quiet github_com_ed25519`
+export TERM=xterm-256color
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
